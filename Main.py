@@ -6,3 +6,7 @@
 # Last Edited 5/5/2018
 #   Latest Changes:
 #       -Initial Commit
+
+from LandingPad import LandingPad
+
+main = LandingPad()
