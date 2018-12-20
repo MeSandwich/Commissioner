@@ -8,7 +8,7 @@ from tkinter import Menu
 from tkinter import ttk
 
 class LandingPad:
-
+    
     def __init__(self):
         # Creates the initial window along with all of
         # the windows statistics
@@ -25,7 +25,6 @@ class LandingPad:
 
         # Adding commands to the file menu drop-down
         fileMenu.add_command(label="New")
-
 
         # Add the file menu to the Overall menubar
         menuBar.add_cascade(label="File",menu=fileMenu)
@@ -48,7 +47,6 @@ class LandingPad:
         #Testing Label for frame guilding
         testingLabelStats = tk.Label(commissionsStatsFrame,text="Testing")
         testingLabelStats.grid(column=0,row=0)
-
 
         # Starts displaying the window for user
         window.mainloop()
